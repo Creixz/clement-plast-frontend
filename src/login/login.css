@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .super-contenedor {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(to right, #043635 10%, #3aadad 100%);
+  }
+  .contenido {
+    background: #bce5e0;
+    max-width: 350px;
+    width: 100%;
+    padding: 25px 40px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+  }
+  .contenido form .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    position: relative;
+  }
+  .contenido form .title:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 230px;
+    left: 0px;
+    bottom: 3px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #157270 0%, #3aadad 80%);
+  }
+  .contenido form .input-box {
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    position: relative;
+  }
+  .contenido form .input-box input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 16px;
+    border: none;
+  }
+  .contenido form .underline::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #9fc9c4;
+    left: 0;
+    bottom: 0;
+  }
+  .contenido form .underline::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, #043635 0%, #3aadad 100%);
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.3s ease;
+  }
+  .contenido form .input-box input:focus ~ .underline::after,
+  .contenido form .input-box input:valid ~ .underline::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  .contenido form .button {
+    margin: 40px 0 20px 0;
+  }
+  .contenido .input-box input[type="submit"] {
+    background: linear-gradient(to right, #043635 0%, #3aadad 100%);
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .contenido .input-box input[type="submit"]:hover {
+    letter-spacing: 1px;
+    background: linear-gradient(to left, #043635 0%, #3aadad 100%);
+  }
+  .contenido .option {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  input[type="text"] {
+    background-color: #bce5e0; 
+  }
+
+  input[type="password"] {
+    background-color: #bce5e0; 
+  }
+  
+  a {
+    text-decoration: none;
+    color: #3E205D;
+    font-weight: 400;
+  }
+  .registro{
+      text-align: center;
+  }
+  
+  .logo{
+    font-size: 30px;
+    color: white;
+    
+  }
+  

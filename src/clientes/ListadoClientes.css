@@ -1,0 +1,29 @@
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin-right: 5px;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    color: 	#198754;
+    padding: 8px 12px;
+    border: 1px solid 	#198754;
+    border-radius: 4px;
+  }
+  
+  .pagination .active a {
+    background-color: 	#198754;
+    color: #fff;
+    border: 1px solid 	#198754;
+  }
+  
+  .pagination .disabled a {
+    pointer-events: none;
+    color: #6c757d;
+    border: 1px solid #6c757d;
+  }

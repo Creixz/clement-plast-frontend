@@ -1,0 +1,77 @@
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin-right: 5px;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    color: 	#198754;
+    padding: 8px 12px;
+    border: 1px solid 	#198754;
+    border-radius: 4px;
+  }
+  
+  .pagination .active a {
+    background-color: 	#198754;
+    color: #fff;
+    border: 1px solid 	#198754;
+  }
+  
+  .pagination .disabled a {
+    pointer-events: none;
+    color: #6c757d;
+    border: 1px solid #6c757d;
+  }
+
+ /* Estilos para el formulario de fechas */
+.col-md-7 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.col-md-7 .fifi {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-md-7 label {
+  display: inline-block; /* Hace que los labels se comporten como elementos en línea */
+  margin-right: 10px;
+  margin-top: 7px;
+  font-weight: 600;
+  color:#198754;
+}
+
+.col-md-7 div {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-md-7 input {
+  margin-right: 10px;
+  padding: 5px;
+  border: 2px solid #198754;
+  border-radius: 10px;
+}
+
+.col-md-7 .buscar {
+  text-decoration: none;
+    color: 	#198754;
+    padding: 5px 10px;
+    border: 2px solid 	#198754;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+
+
+
+
+  
